@@ -3,6 +3,7 @@ from connect_four import *
 #not a machine learning project but a connect 4 ai I wrote on codecademy
 # Uses the minimax algorithm to see potential future moves and selects best ones
 
+
 def random_eval(board):
   return random.randint(-100,100)
 
